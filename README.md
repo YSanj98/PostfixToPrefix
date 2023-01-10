@@ -16,7 +16,7 @@ Convert Postfix Expressiom  To Prefix Expression Using Python
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/MadushaS/MedusaNote/issues)
+Feel free to check [issues page](https://github.com/YSanj98/PostfixToPrefix/issues)
 
 ---
 
