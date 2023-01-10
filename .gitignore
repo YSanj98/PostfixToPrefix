@@ -1,0 +1,33 @@
+# Bytecode files
+*.pyc
+__pycache__/
+
+# Log files
+*.log
+
+# IDE specific files
+.vscode/
+*.idea/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Dependency files
+requirements.txt
+Pipfile.lock
+
+# Build and distribution files
+dist/
+build/
+*.egg-info/
+
+# Test files
+*.pytest_cache/
+htmlcov/
+
+# Doc files
+docs/_build/
+
+
