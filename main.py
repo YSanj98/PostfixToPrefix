@@ -6,10 +6,7 @@ class TreeNode:
 
 
 def is_operand(c):
-    if c.isalpha():
-        return True
-    else:
-        return False
+    return bool(c.isalpha())
 
 
 def postfixtoprefix(post):
