@@ -40,4 +40,3 @@ print("Postfix expression: ", postfix)
 root = postfixtoprefix(postfix)
 print("Prefix expression: ", end="")
 print_prefix_expression(root)
-
