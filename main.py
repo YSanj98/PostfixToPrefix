@@ -31,9 +31,11 @@ def print_prefix_expression(rootelement):
         print_prefix_expression(rootelement.right)
         print_prefix_expression(rootelement.left)
 
-
-postfix = input("Enter a valid postfix expression: ")
-print("Postfix expression: ", postfix)
-root = postfixtoprefix(postfix)
-print("Prefix expression: ", end="")
-print_prefix_expression(root)
+try:
+    postfix = input("Enter a valid postfix expression: ")
+    print("Postfix expression: ", postfix)
+    root = postfixtoprefix(postfix)
+    print("Prefix expression: ", end="")
+    print_prefix_expression(root)
+except Exception as e:
+    print("An error occured: ", e)
